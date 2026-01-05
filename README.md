@@ -1,3 +1,5 @@
+# Parallel NovaSeq run
+
 To demultiplex, run the demultiplex.py script (or submit is as a SLURM job using demultiplex.sh). After this, you can run the align_and_quantify.py script (or use the align_and_quantify.sh script) to create a .json for each unique UMI across each of the samples. In these .json files, the following information will be stored:
 
 - Total number of reads mapped to UMI
